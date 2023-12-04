@@ -40,7 +40,7 @@ function App() {
 
       {tarefa.map((tarefa) => (
        
-        <div key={tarefa.id} style={{display:'flex', alignItems:'center', paddingTop:'50px'}}>
+        <div key={tarefa.id} style={{display:'flex', alignItems:'center', paddingTop:'5  0px'}}>
            <div className='bord'>
           <input id='check' type='checkbox'></input><p>{tarefa.nome}</p>
            <button id='del' onClick={() => deletaTarefa(tarefa.id)}>apagar</button>
